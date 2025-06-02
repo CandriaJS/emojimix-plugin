@@ -1,0 +1,10 @@
+# emoji 配置
+
+# 是否开启emoji功能
+enable: true
+
+# 是否开启缓存
+cache: true
+
+# github镜像代理地址，raw的代理，如：https://gh-proxy.com
+proxy_url: ''
