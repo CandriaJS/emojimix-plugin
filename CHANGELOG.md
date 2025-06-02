@@ -1,5 +1,12 @@
 # 变更日志
 
+## 1.0.0 (2025-06-02)
+
+
+### ✨ 新功能
+
+* 增加柠糖emoji插件 ([9ff0871](https://github.com/CandriaJS/emojimix-plugin/commit/9ff0871fe6c4b063f601f1ae58a10b370d9c7c7b))
+
 ## [2.5.2](https://github.com/TaoriJS/emojimix-plugin/compare/v2.5.1...v2.5.2) (2025-05-27)
 
 
