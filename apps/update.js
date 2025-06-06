@@ -21,7 +21,7 @@ export class update extends plugin {
           fnc: 'updateLog'
         },
         {
-          reg: /^#?(?:(?:柠糖)?表情)更新(?:表情(?:包)?)?(?:资源|数据)?$/i,
+          reg: /^#?(柠糖emoji|emojimix-plugin)更新(?:emoji)?(?:资源|数据)?$/i,
           fnc: 'updateRes'
         }
       ]
