@@ -1,7 +1,6 @@
 import chalk from 'chalk'
 
-import { Config, Version } from '#components'
-import { utils } from '#models'
+import { Version } from '#components'
 
 import { update as Update } from '../../other/update.js'
 
@@ -45,13 +44,14 @@ export class update extends plugin {
   }
 
   async updateRes (e) {
-    if (!isTask && !(e.isMaster || e.user_id.toString() === '3369906077')) {
+    if (!(e.isMaster || e.user_id.toString() === '3369906077')) {
       await e.reply('只有主人才能更新emoji数据')
       return
     }
     try {
       await e.reply('开始更新emoji数据中, 请稍后...')
-      logger.mark(chalk.rgb(255, 165, 0)('✅ 表情包数据更新完成 🎉'))
+      logger.mark(chalk.rgb(255, 165, 0)('✅ emoji数据更新完成 🎉'))
+      await e.reply('emoji数据完成')
       return true
     } catch (error) {
       logger.error(error)

@@ -38,11 +38,19 @@ git clone --depth=1 https://gh.wuliya.xin/https://github.com/CandriaJS/emojimix-
 
 ### 安装依赖 📦
 ```bash
-pnpm install --filter=emojimix-plugin
+pnpm install --filter=@candriajs/emojimix-plugin
 ```
 
 ## 使用帮助 ℹ️
 其他内容请查看 [官方文档](https://docs.wuliya.cn)
+
+## 贡献者 👨‍💻👩‍💻
+
+<a href="https://github.com/CandriaJS/emojimix-plugin/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=CandriaJS/emojimix-plugin" />
+</a>
+
+![Alt](https://repobeats.axiom.co/api/embed/5d102d1c59657064e38865716afcc6ea2ede56cb.svg "Repobeats analytics image")
 
 
 # 资源 📚
