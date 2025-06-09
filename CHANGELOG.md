@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.0.3](https://github.com/CandriaJS/emojimix-plugin/compare/v1.0.2...v1.0.3) (2025-06-09)
+
+
+### 🐛 错误修复
+
+* update正则 ([dcc10e9](https://github.com/CandriaJS/emojimix-plugin/commit/dcc10e9e8aaf43a1fd944b50880b2e8426823d1c))
+
+
+### ♻️ 代码重构
+
+* **update:** 优化更新功能并移除未使用的导入 ([ae721dc](https://github.com/CandriaJS/emojimix-plugin/commit/ae721dc242afe7caf063dedf62808f0ee1316c64))
+
 ## [1.0.2](https://github.com/CandriaJS/emojimix-plugin/compare/v1.0.1...v1.0.2) (2025-06-06)
 
 
